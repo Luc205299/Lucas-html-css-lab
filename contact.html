@@ -7,11 +7,8 @@
 <body>
  <div class="container">
  <header>
-    <img src="su_banner.gif" alt="SU Banner">
-<!--
-The banner image (su_banner.gif) has to be here
-[Check point 3 part 1]
--->
+    <img src="images/su_banner.gif" alt="SU Banner">
+
  <nav id="main-nav">
 
     <li>
@@ -21,22 +18,64 @@ The banner image (su_banner.gif) has to be here
         <ul><a href="contact.html">Contact Us</a></ul>
     </li>
 
-<!--
-Place your main navigation items here,
-as explained in the instructions [Check point 3 part 2]
--->
+
  </nav>
  </header>
  <main class="content">
-<!-- place your main page contents here,
-as explained in the instructions for each page -->
+<h2>Contact Us</h2>
+<form>
+    <fieldset> 
+        <legend>Personal Information</legend>
+        <label for="first_name">First Name: *</label>
+    <input type="text" required maxlength="25">
+    <br><br>
+    <label for="last_name">Last Name: *</label>
+    <input type="text" required maxlength="25">
+    <br><br>
+    <label for="email">Email: *</label>
+    <input type="email" required maxlength="35">
+    <br><br>
+
+    </fieldset>
+    <fieldset>
+        <legend>Your Message</legend>
+        <label >How did you hear about us ?</label>
+        <select >
+            <option >Our website</option>
+            <option >Friends</option>
+            <option >TV Adv</option>
+            <option >Other</option>
+        </select>
+        <br><br>
+        <p>Would you recommend us to your friends ?</p>
+        <label >Yes</label>
+            <input type="checkbox">
+        <label >No</label>
+            <input type="checkbox">
+        <label >Maybe</label>
+            <input type="checkbox">
+        <br><br>
+        <label>Your request: </label>
+        <input type="text" required maxlength="350">
+        <br><br>
+        <input type="checkbox">
+        <label >Sign me up for email updates</label>
+        <br><br>
+        <input type="submit" name='submit'>
+
+    </fieldset>
+</form>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11543.463984481174!2d-79.3897605!3d43.6717567!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e0b64e1140d%3A0xd11156503e310196!2sSpa%20at%20Four%20Seasons%20Toronto!5e0!3m2!1sfr!2sca!4v1695047342836!5m2!1sfr!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
  </main>
  <footer>
-<!-- place the footer content here -->
+
 <p>Copyright © 2023 ILAC and EFREI Paris – HTML-CSS major lab-work - created by: BATHELEMY Lucas - All rights
     reserved
     </p>
  </footer>
  </div>
 </body>
-</html>
+</html
