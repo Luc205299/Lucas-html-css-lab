@@ -1,167 +1,161 @@
 body {
-    color: #000000; /* Remplacez par la couleur que vous préférez pour le texte */
-    background-image: url('../assets/images/dark-wood4.jpg'); /* Remplacez par le chemin correct vers votre image */
-    font-family: 'Arial'; /* Liste de trois polices sans-serif */
-    margin: 0; /* Margin 0 pour tous les quatre côtés */
+    color: #000000;
+    background-image: url('../assets/images/dark-wood4.jpg');
+    font-family: 'Arial';
+    margin: 0;
 }
 
 .container {
-    width: 950px; /* La largeur de la div */
-    margin-top: 5px; /* Marge de 5px en haut */
-    margin-bottom: 5px; /* Marge de 5px en bas */
-    margin-left: auto; /* Centrer la div horizontalement */
-    margin-right: auto; /* Centrer la div horizontalement */
-    background-color: #d9b262; /* Couleur de fond blanche */
+    width: 950px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9b262;
 }
 
 .content {
     line-height: 1.4em;
     padding: 10px;
-}   
+}
 
 header, nav, footer {
-    background-color: #d39f37; /* Remplacez par la couleur d'arrière-plan que vous préférez */
-    color: #000000; /* Remplacez par la couleur de texte que vous préférez */
+    background-color: #a7833c;
+    color: #000000;
 }
 
 nav ul {
-    margin: 0; /* 0 marge de tous les côtés */
-    padding: 5px; /* 5px de padding de tous les côtés */
+    margin: 0;
+    padding: 5px;
 }
 
 nav li {
-    display: inline-block; /* Afficher les éléments de liste horizontalement */
-    margin-right: 40px; /* Ajouter une marge à droite de chaque élément de liste */
-    text-transform: uppercase; /* Transformer le texte en majuscules */
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
 }
 
-/* Le lien normal */
 nav a:link {
-    color: #0000FF; /* Bleu */
+    color: #0000FF;
 }
 
-/* Le lien visité */
 nav a:visited {
-    color: #800080; /* Pourpre */
+    color: #800080;
 }
 
-/* Le lien survolé */
 nav a:hover {
-    color: #FF0000; /* Rouge */
+    color: #FF0000;
 }
 
-/* Le lien actif */
 nav a:active {
-    color: #008000; /* Vert */
+    color: #008000;
 }
 
 a {
-    color: #0000FF; /* Remplacez par la couleur que vous préférez */
-    text-decoration: none; /* Pas de soulignement */
+    color: #0000FF;
+    text-decoration: none;
 }
 
 h1, h2, h3 {
-    margin: 10px; /* Marge de 10px pour tous les côtés */
-    text-transform: uppercase; /* Lettres en majuscules */
+    margin: 10px;
+    text-transform: uppercase;
 }
 
 h1 {
-    color: #9e4908; /* Couleur sombre pour h1, remplacez par la couleur que vous préférez */
+    color: #9e4908;
 }
 
 h2 {
-    color: #9c5621; /* Couleur intermédiaire pour h2, remplacez par la couleur que vous préférez */
+    color: #9c5621;
 }
 
 h3 {
-    color: #966037; /* Couleur claire pour h3, remplacez par la couleur que vous préférez */
+    color: #966037;
 }
 
 .img-centre {
-    display: block; /* Rend l'image en élément de bloc */
-    margin: 5px auto; /* Centrer horizontalement avec une marge de 5px en haut et en bas */
-    padding: 2px; /* Padding de 2px de tous les côtés */
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
 }
 
 audio, video {
-    display: block; /* Rend les éléments de bloc pour pouvoir les centrer */
-    margin: 10px auto; /* Centrer horizontalement avec une marge de 10px en haut et en bas */
+    display: block;
+    margin: 10px auto;
 }
 
 table {
-    width: 800px; /* Définit la largeur de la table */
-    margin: 10px auto; /* Centre la table horizontalement avec une marge de 10px en haut et en bas */
-    border-collapse: collapse; /* Colle les bordures de la table */
+    width: 800px;
+    margin: 10px auto;
+    border-collapse: collapse;
 }
 
 td, th {
-    border: 1px solid #000; /* Définissez la bordure comme vous le souhaitez, ici c'est une bordure solide de 1px de couleur noire */
-    padding: 2px 5px; /* Padding de 2px en haut et en bas, 5px à gauche et à droite */
-    background-color: #deab46; /* Choisissez la couleur d'arrière-plan que vous préférez, ici c'est un gris clair */
+    border: 1px solid #000;
+    padding: 2px 5px;
+    background-color: #deab46;
 }
 
 th, tfoot td {
-    text-transform: uppercase; /* Mettez le texte en majuscules */
-    background-color: #e1a224; /* Choisissez une couleur d'arrière-plan, ici un gris foncé */
-    color: #000000; /* Choisissez une couleur de texte, ici du blanc */
+    text-transform: uppercase;
+    background-color: #e1a224;
+    color: #000000;
 }
 
 dt {
-    font-weight: bold; /* Rend le texte gras */
+    font-weight: bold;
 }
 
 footer {
-    font-size: 80%; /* Définit la taille de la police à 80% de la taille par défaut */
-    text-align: center; /* Centre le texte horizontalement */
-    padding-top: 1px; /* Ajoute un padding de 1px en haut */
-    padding-bottom: 1px; /* Ajoute un padding de 1px en bas */
-    padding-right: 0; /* Pas de padding à droite */
-    padding-left: 0; /* Pas de padding à gauche */
+    font-size: 80%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 iframe {
-    display: block; /* Transforme l'élément iframe en élément de niveau bloc */
-    margin-top: 10px; /* Ajoute une marge de 10px en haut */
-    margin-bottom: 10px; /* Ajoute une marge de 10px en bas */
-    margin-right: auto; /* Pour centrer horizontalement */
-    margin-left: auto; /* Pour centrer horizontalement */
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 fieldset {
-    width: 500px; /* Définir la largeur à 500px */
-    margin-top: 20px; /* Ajouter une marge de 20px en haut */
-    margin-bottom: 20px; /* Ajouter une marge de 20px en bas */
-    margin-right: auto; /* Pour centrer horizontalement */
-    margin-left: auto; /* Pour centrer horizontalement */
-    border: 2px solid #000000; /* Ajouter une bordure - vous pouvez ajuster le style comme vous le souhaitez */
-    background-color: #d9b262; /* Définir la couleur d'arrière-plan - ajustez à la couleur que vous préférez */
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #000000;
+    background-color: #d9b262;
 }
 
 legend {
-    font-style: italic; /* Style de police en italique */
-    color: #000000; /* Couleur de texte - choisissez celle que vous préférez */
-    background-color: #d4a13b; /* Couleur d'arrière-plan - choisissez celle que vous préférez */
-    margin-top: 0; /* Marge de 0 en haut */
-    margin-bottom: 0; /* Marge de 0 en bas */
-    margin-left: 10px; /* Marge de 10px à gauche */
-    margin-right: 10px; /* Marge de 10px à droite */
-    padding-top: 0; /* Padding de 0 en haut */
-    padding-bottom: 0; /* Padding de 0 en bas */
-    padding-left: 5px; /* Padding de 5px à gauche */
-    padding-right: 5px; /* Padding de 5px à droite */
-    border-radius: 10px; /* Bordure arrondie - ajustez la taille comme vous le souhaitez */
+    font-style: italic;
+    color: #000000;
+    background-color: #d4a13b;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
 }
 
 input[type="submit"] {
-    border: 2px solid #000000; /* Style de bordure - ajustez selon vos préférences */
-    padding: 5px; /* Padding de 5px de tous les côtés */
-    background-color: #4CAF50; /* Couleur d'arrière-plan - choisissez celle que vous préférez */
-    color: #ffffff; /* Couleur du texte - choisissez celle que vous préférez */
+    border: 2px solid #000000;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: #ffffff;
     border-radius: 10px;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049; /* Nouvelle couleur d'arrière-plan au survol */
-    color: #000000; /* Nouvelle couleur de texte au survol */
-    cursor: pointer; /* Change le curseur de la souris en main */
+    background-color: #45a049;
+    color: #000000;
+    cursor: pointer;
 }
